@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    int currentyear = 2025;
+    int birthyear;
+    int futureyear;
+    int ageinfuture;
+    printf("enter your age : ");
+    scanf("%d", &age);
+    birthyear = currentyear - age ;
+    printf(" enter a future year : ");
+    scanf("%d", &futureyear);
+    ageinfuture = futureyear - birthyear ;
+    
+    printf ("you were born in %d\n", birthyear);
+   printf(" in %d you will be : %d years old", futureyear, ageinfuture);
+   
+    return 0;
+}
